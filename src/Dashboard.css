@@ -1,0 +1,70 @@
+/* src/Dashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titles{
+  background: #000;
+}
+
+.current-date-time {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  border: 2px solid #f4f4f4;
+  color: #fff;
+}
+
+.current-date-time p {
+  margin: 5px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.current-lecture {
+  background-color: #c8e6c9 !important;
+}
+
+.next-lecture {
+  background-color: #ffecb3 !important;
+}
+
+.current-next-info {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.current-next-info strong {
+  color: #00796b;
+}
